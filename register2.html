@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body> 
+    <div class="back">
+        <a href="index.html"> Back</a>
+    </div>
+
+  
+    
+<form action="" class="register_form">
+    <legend class="register_legend">Sign up</legend>
+
+    <div class="form_picture">
+<img src="user.png" width="150px" height="150px" alt="">
+    </div>
+   <br><br><br><br><br><br><br>
+     <label for="Matric no">Matric Number:</label> 
+     <input class="matric_no" type="text" id="Matric no" placeholder="Matric Number">
+
+     <label for="firstname">First name:</label>
+    <input class="first_name" type="text" id="full name" placeholder="first name">
+    
+    <label for="lastname">Last name:</label>
+    <input type="text" id="last name" placeholder="last name">
+    
+    <label for="othername">Other name:</label>
+    <input type="text" id="other name" placeholder="other name">
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="password">
+   
+   
+    State of Origin
+    <select name="s">
+    <option value="abia">Abia</option>
+    <option value="adamawa">Adamawa</option>
+    <option value="akwa iborn">Akwa Iborn</option>
+    <option value="anambra">Anambra</option>
+    <option value="bauchi">Bauchi</option>
+    <option value="bayelsa">Bayelsa</option>
+    <option value="benue">Benue</option>
+    <option value="borno">Borno</option>
+    <option value="crossriver">Cross River</option>
+    <option value="delta">Delta</option>
+    <option value="ebonyi">Ebonyi</option>
+    <option value="edo">Edo</option>
+    <option value="ekiti">Ekiti</option>
+    <option value="enugu">Enugu</option>
+    <option value="gombe">Gombe</option>
+    <option value="imo">Imo</option>
+    <option value="jigawa">Jigawa</option>
+    <option value="kaduna">Kaduna</option>
+    <option value="kano">Kano</option>
+    <option value="katsina">Katsina</option>
+    <option value="kebbi">Kebbi</option>
+    <option value="kogi">Kogi</option>
+    <option value="kwara">Kwara</option>
+    <option value="lagos">Lagos</option>
+    <option value="nasawara">Nasarawa</option>
+    <option value="niger">Niger</option>
+    <option value="ogun">Ogun</option>
+    <option value="ondo">Ondo</option>
+    <option value="osun">Osun</option>
+    <option value="oyo">Oyo</option>
+    <option value="plateau">Plateau</option>
+    <option value="rivers">Rivers</option>
+    <option value="sokoto">Sokoto</option>
+    <option value="taraba">Taraba</option>
+    <option value="yobe">Yobe</option>
+    <option value="zamfara">Zamfara</option>
+    </select>
+
+    Gender
+    <select name="g">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    
+    </select>
+   
+
+Faculty
+<select name="f">
+    <option value="art">Faculty of Arts and Education</option>
+    <option value="agriculture">Faculty of Agriculture</option>
+    <option value="law">Faculty of Law</option>
+    <option value="applied sciences">Faculty of Basic & Applied Sciences</option>
+    <option value="management sciences">Faculty of Social & Management Sciences</option>
+    <option value="engineering">Faculty of Engineering</option>
+
+
+
+
+</select>
+Department
+<select name="d">
+    <option value="">Education Studies</option>
+    <option value="">English Studies</option>
+    <option value="">International Studies and Diplomacy</option>
+    <option value="">Agricultural Economics and Extention Services</option>
+    <option value="">Agronomy & Environment Management</option>
+    <option value="">Animal Scienc & Animal Technology</option>
+    <option value="">Public Law</option>
+    <option value="">Private Law</option>
+    <option value="">Physical Sciences</option>
+    <option value="">Computer sciences</option>
+    <option value="">Biological Sciences</option>
+    <option value="">Accounting</option>
+    <option value="">Business Administration</option>
+    <option value="">Economics, Banking and Finance</option>
+    <option value="">Mass Communication</option>
+    <option value="">Political Science and Public Administration</option>
+    <option value="">Sociology & Anthropology</option>
+    <option value="">Electrical and Electronics Engineering</option>
+    <option value="">Civil Engineering</option>
+    <option value="">Mechanical Engineering</option>
+
+
+</select>
+
+<button>Submit</button>
+
+<p>Already have an account <a href="#" class="login">Login</a></p>
+</form>
+
+
+
+<form action="" class="login_form">
+    <legend>Login</legend>
+
+     <label for="Matric no">Matric Number:</label> 
+     <input type="text" id="Matric no" placeholder="Matric Number">
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="password">
+
+    <button>Login</button>
+
+<p>Don't have an account <a href="#" class="register">Register</a></p>
+
+    </form>
+
+
+    <style>
+       .back{
+        position: absolute;
+        height: 30px;
+        width: 80px;
+        left: 0;
+        background-color: rgb(35, 48, 102);
+        color: white;
+        border-radius: 16px;
+        text-align: center;
+        padding-top: 13px;
+       }
+       .back a{
+        color: white;
+        text-decoration: none;
+       }
+        form{
+            position: absolute;
+            /* position: fixed; */
+            width: 40%;
+            margin: 0 auto;
+            /* top: -878px; */
+            right: 0;
+            left: 0;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f5f7fc;
+            border: 1px #b5b5b5 solid;
+            /* transition: .9s; */
+        }
+        form *{
+            display: block;
+        }
+        .form_picture{
+            position: absolute;
+            top: 0;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            outline: 1px;
+            /* border: 1px black solid; */
+            /* background-color: red; */
+        }
+        form input{
+            margin-bottom: 30px;
+            padding-left: 2%;
+            width: 97%;
+            height: 40px;
+            border-radius: 8px;
+            outline: 1px;
+            border: 1px;
+            border-bottom: 1px #b5b5b5 solid;
+        }
+        form label, form input{
+            display: inline-block;
+        }
+        label{
+            position: relative;
+        }
+        /* .matric_no{
+            width: 70%;
+        } */
+
+        .matric_no{
+            width: 97%;
+        }
+       
+/* .first_name{
+    width: 50%;
+} */
+
+        legend{
+            padding: 12px;
+            background-color: #ecf1fb;
+            border-radius: 14px;
+            width: 10%;
+            left: 0;
+            text-align: center;
+            margin: 0 auto;
+            background-color: rgb(35, 48, 102);
+            color: #ecf1fb;
+        }
+        .register_legend{
+            position: absolute;
+            left: 0;
+            background-color: rgb(35, 48, 102);
+            color: #ecf1fb;
+        }
+        form button{
+            width: 100%;
+            height: 43px;
+            border: 0;
+            margin-bottom: 9px;
+            border-radius: 8px;
+            border-bottom: 2px #b5b5b5 solid;
+            background-color: rgb(35, 48, 102);
+            color: #ecf1fb;
+        }
+
+        form a{
+            display: inline-block;
+        }
+
+
+select{
+    margin-bottom: 30px;
+            padding-left: 2%;
+            width: 97%;
+            height: 40px;
+            border-radius: 8px;
+            outline: 1px;
+            border: 1px;
+            border-bottom: 1px #b5b5b5 solid;
+}
+
+.login_form{
+    position: absolute;
+    top: -878px;
+    transition: .9s;
+}
+
+    </style>
+
+    <script>
+        let login = document.querySelector(".login");
+        let login_form = document.querySelector(".login_form");
+        let register = document.querySelector(".register");
+        let register_form = document.querySelector(".register_form");
+
+        login.addEventListener("click", ()=>{
+            login_form.style.top="78px";
+            register_form.style.display="none";
+            // mask.style.zIndex="2";
+        });
+
+        register.addEventListener("click", ()=>{
+            register_form.style.display="block";
+            login_form.style.top="-878px";
+            // mask.style.zIndex="2";
+        });
+
+    </script>
+  
+</body>
+</html>
